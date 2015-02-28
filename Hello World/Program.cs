@@ -66,8 +66,27 @@ namespace Hello_World
             
 
             //Exercise - Testing Anagrams
+            TestAnagrams test = new TestAnagrams();
 
+            string phraseOne, phraseTwo;
 
+            Console.Write("Please enter first phrase: ");
+            phraseOne = Console.ReadLine();
+
+            Console.Write("\nPlease enter second phrase: ");
+            phraseTwo = Console.ReadLine();
+
+            if(test.testPhrases(phraseOne, phraseTwo))
+            {
+                Console.WriteLine("\n\"" + phraseOne + "\" and \"" + phraseTwo + "\" are anagrams of each other. Congratulations!!\n\n");
+            }
+            else
+            {
+                Console.WriteLine("\n\"" + phraseOne + "\" and \"" + phraseTwo + "\" are not anagrams of each other. Commiserations.\n\n");
+            }
+
+            Console.WriteLine("Please press any key to exit...");
+            Console.ReadKey();
         }
     }
 }

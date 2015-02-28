@@ -9,3 +9,9 @@ D:\Google Drive\Code - Intro to C#\Hello World\obj\Debug\Hello World.pdb
 D:\Google Drive\Code - Intro to C#\Hello World\bin\Debug\Hello World.exe
 D:\Google Drive\Code - Intro to C#\Hello World\bin\Debug\Hello World.pdb
 D:\Google Drive\Code - Intro to C#\Hello World\obj\Debug\Hello World.csprojResolveAssemblyReference.cache
+D:\Github Repositories\Introduction-to-C-Sharp\Hello World\bin\Debug\Hello World.exe.config
+D:\Github Repositories\Introduction-to-C-Sharp\Hello World\bin\Debug\Hello World.exe
+D:\Github Repositories\Introduction-to-C-Sharp\Hello World\bin\Debug\Hello World.pdb
+D:\Github Repositories\Introduction-to-C-Sharp\Hello World\obj\Debug\Hello World.exe
+D:\Github Repositories\Introduction-to-C-Sharp\Hello World\obj\Debug\Hello World.pdb
+D:\Github Repositories\Introduction-to-C-Sharp\Hello World\obj\Debug\Hello World.csprojResolveAssemblyReference.cache
