@@ -19,7 +19,10 @@ namespace Hello_World
 
 
             //Tutorial Session 2:   .NET Containers
-            ArrayTest();
+            //ArrayTest();
+            //ListTest();
+            //StackTest();
+            DictionaryTest();
 
 
             Console.WriteLine("\nPlease press any key to exit...");
@@ -105,11 +108,30 @@ namespace Hello_World
             }
         }
 
+        //Tutorial Session 2 Test Functions
         static void ArrayTest()
         {
             ContainersTutorial containers = new ContainersTutorial();
 
             containers.ArrayExample(10);
+        }
+        static void ListTest()
+        {
+            ContainersTutorial containers = new ContainersTutorial();
+
+            containers.ListExample();
+        }
+        static void StackTest()
+        {
+            ContainersTutorial containers = new ContainersTutorial();
+
+            containers.StackExample();
+        }
+        static void DictionaryTest()
+        {
+            ContainersTutorial containers = new ContainersTutorial();
+
+            containers.DictionaryExample();
         }
     }
 }
