@@ -192,11 +192,14 @@ namespace Hello_World
             myDictionary.Add(0, "Cat");
             myDictionary.Add(1, "Dog");
             myDictionary[5] = "Bird";
-            //myDictionary[4] = "Crab";
+            myDictionary[4] = "Crab";
 
             Console.WriteLine(myDictionary[5]);
+            
+            //Step 3: Access a key which is not yet added
             //Console.WriteLine(myDictionary[4]); //Unhandled Exception
 
+            //Step 2: Check if a value or key is in the dictionary
             if(myDictionary.ContainsKey(4))
             {
                 Console.WriteLine("Key 4 exists.");
@@ -206,6 +209,11 @@ namespace Hello_World
                 Console.WriteLine("Key 4 doesn't exist.");
             }
 
+            //Step 4: write a loop to iterate through dictionary - it is not sorted...
+            foreach(KeyValuePair<int, string> pair in myDictionary)
+            {
+                Console.WriteLine("Key {0} has a value of {1}", pair.Key, pair.Value);
+            }
         }
     }
 }
